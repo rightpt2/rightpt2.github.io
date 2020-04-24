@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+body{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962; 
+  /* Lets play with colors at some point */
+}
+
+
+/*  Navigation */
+
+.navbar{
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img{
+  height: 2rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+}
+
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+.navbar .navbar-nav .nav-link{
+  color: #ffffff;
+  padding-top: .8rem;
+}
+
+/* This is the same links but only when they are active */
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+  color: #1EBBA3;
+}
+
+/* Landing Page CSS */
+
+
+.home-inner{
+  background-image: url('img/yosemite_nose.jpg');
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  /* this is the shadow on h1 image Ben Keyes  */
+  text-shadow: .1rem .1rem .8rem grey;
+  padding-bottom: .5rem;
+}
+
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem grey;
+  padding-bottom: .2rem;
+
+}
+
+
+.caption btn-large {
+  padding: .6rem, .6rem;
+  font-size: 1.1rem;
+
+}
+
+/* some generic classes for containers */
+.narrow{
+  width: 75%;
+  max-width: 850px;
+  margin: 1.5rem auto;
+}
+
+.narrow h1{
+  color: #1EBBA3;
+}
+
+
+
+.btn-outline-primary{
+  color:rgba(227, 230, 230, .9);
+  background-color: rgba(30,187,163,.5);
+  border-color: #1EBBA3;
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: rgba(30,187,163,1);
+  border-color: #1EBBA3;
+}
+
+.btn-outline-secondary{
+  color:rgba(227, 230, 230, .9);
+  background-color: rgba(106, 109, 109, 0.5);
+  border-color:rgba(106, 109, 109, 1)
+}
+
+
+
+
+.my-4{
+  background-color: rgba(30,187,163,1);
+  width: 50%;
+}
+
+/* make all of the font awesome icons a new color */
+.svg-inline--fa{
+color: #1EBBA3;
+}
+
+.svg-inline--fa:hover {
+  color: rgb(16, 109, 95)!important;
+  }
+
+
+/* style for the profile section */
+
+.headshot img{
+  max-width: 80%;
+  border-radius: 50%;
+  border-width: 20px;
+  border-color: #FFEFCF;
+
+}
+
+.headshot ul {
+  list-style: none; /* Remove default bullets */
+}
+
+/* .headshot p + ul {
+  margin-top: -15px;
+} */
+
+.headshot ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #1EBBA3; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 0em; /* Also needed for space (tweak if needed) */
+}
+
+.headshot-detail{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#profile h3{
+  color: #1EBBA3;
+}
+
+#profile .lead{
+  font-size: 1.1rem;
+}
+
+
+
+/* style for the experience section */
+
+#experience{
+  background-color: #FFEFCF !important;
+  
+}
+
+.expereince-location{
+  margin-top:5px; 
+  display:inline-block;
+}
+
+
+/* skills section */
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.skill-title {
+  display: inline-block;
+  width: 60%;
+  text-align: left;
+  font-size:.9rem;
+  
+}
+
+.skill-score {
+  /* display: inline-block; */
+  width: 40%;
+  text-align: right;
+  letter-spacing: -2rem;
+}
+
+
+#skills .col-md-6{
+  padding:0px;
+}
+
+
+/* css for project section */
+.project-link{
+  font-size: .8rem;
+}
+
+#projects img{
+  max-width: 125px;
+  margin: auto auto;
+  display: block;
+  padding: 10px 0;
+
+}
+
+
+
+
+/* Contacts footer */
+
+footer{
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0rem 2rem;
+  justify-content: center;
+}
+
+
+hr.socket{
+  width: 100%;
+  background-color: #666b71;
+
+}
+
+/* media queries to reszie pictures for smaller screens */
+@media (max-width: 767px) {
+
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .1rem;
+    padding-bottom: .2rem;
+  }
+  
+  .caption h3 {
+    font-size: 1.4rem;
+    padding-bottom: .1rem;
+  
+  }
+
+  .headshot img{
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+    display: block;
+  
+  }
+
+
+
+}
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
