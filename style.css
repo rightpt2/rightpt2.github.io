@@ -217,6 +217,16 @@ ul {
 }
 
 
+/* skills section with stars */
+#skills .col-md-7{
+  padding:0px 0px 0px 0px;
+}
+
+#skills .col-md-5{
+  padding:0px 0px 0px 0px;
+}
+
+
 /* css for project section */
 .project-link{
   font-size: .8rem;
