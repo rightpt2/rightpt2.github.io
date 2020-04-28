@@ -230,8 +230,7 @@ ul {
 
 .skill-title-full {
   text-align: left;
-  font-size:.9rem;
-  
+  font-size:.9rem;  
 }
 
 
@@ -290,6 +289,31 @@ hr.socket{
     display: block;
   
   }
+
+/* skills section with stars */
+#skills .col-7{
+  padding:0px;
+}
+
+#skills .col-5{
+  padding:0px;
+  letter-spacing: -.3rem;
+}
+
+#skills .col-6{
+  padding:0px;
+  letter-spacing: -.3rem;
+}
+
+#skills .row{
+  padding:0px;
+}
+
+.skill-title-full {
+  text-align: left;
+  font-size:.9rem;  
+}
+
 
 
 
