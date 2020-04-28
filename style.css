@@ -218,13 +218,22 @@ ul {
 
 
 /* skills section with stars */
-#skills .col-md-7{
+#skills .col-7{
   padding:0px 0px 0px 0px;
 }
 
-#skills .col-md-5{
+#skills .col-5{
   padding:0px 0px 0px 0px;
+  letter-spacing: -.3rem;
+  /* XYZ */
 }
+
+.skill-title-full {
+  text-align: left;
+  font-size:.9rem;
+  
+}
+
 
 
 /* css for project section */
